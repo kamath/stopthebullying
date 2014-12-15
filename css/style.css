@@ -1,0 +1,13 @@
+@import url(animate.css);
+@import url(bootstrap.min.css);
+@import url(font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+body
+{
+	font-family: 'Open Sans';
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+}

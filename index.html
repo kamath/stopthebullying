@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Stop The Bullying</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="http://i147.photobucket.com/albums/r295/redrumcivic/pantherpaw.jpg">
+		<script type="text/javascript" src="js/jQuery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/WOW.js"></script>
+		<script type="text/javascript">new WOW().init();</script>
+		<script type="text/javascript">
+			$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+		</script>
+    <script type="text/javascript" src="js/instafeed.js"></script>
+	</head>
+	<body>
+    <div class="jumbotron" align="center" style="background-color:#fff">
+      <div class="container">
+      <img src="img/heart.gif" class="animated infinite pulse" height="50px">
+      <h2>Bullying benefits nobody</h2>
+      <form action="https://docs.google.com/forms/d/1LwvpdK_Hz-wZcPZl90-sEwLY7QDb1OJo_yuxBFTvU2k/formResponse" method="POST" id="ss-form" target="_self" onsubmit="validate()" name="myForm">
+        <p>Name:</p>
+        <input type="text" name="entry.1712944760" value="" class="ss-q-short" id="entry_1712944760" dir="auto" aria-label="What is your name?  " aria-required="true" required="" title="" style="width:250px">
+        <br>
+        <br>
+        <p>In the spirit of the holidays and the new year, please type one thing you will do yourself that you hope will reduce the amount of bullying</p>
+        <textarea name="entry.214108139" rows="8" cols="0" class="ss-q-long" id="entry_214108139" dir="auto" aria-label="Please type the following text   exactly as it is or providing an adequately similar response, replacing (your name) with your actual name - &quot;I, (your name) hereby promise to not bully anyone anymore. I realize that my actions can be very bad and will do my best to be welcoming and amicable at all times&quot;  " aria-required="true" required="" style="width:500px"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action btn btn-default">
+        <br>
+        <br>
+    </form>
+    <p>Bullying is bad for anyone. Especially with recent threats by a kid against my High School due to him/her feeling pain over the last few years. This is really bad. Granted, school shooting or murder is never the answer, but then again, if everybody was simply nice to each other none of this wouldn't happen</p>
+    </div>
+    </div>
+	</body>
+</html>
